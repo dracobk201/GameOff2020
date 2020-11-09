@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2534266468355650458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8406122938957910448}
+  - component: {fileID: 9052983931805289894}
+  - component: {fileID: 7271239505279199282}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8406122938957910448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534266468355650458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9052983931805289894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534266468355650458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c562fad0560f2d646a9aa01bbe481189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseAxis:
+    useVariable: 1
+    constantValue: {x: 0, y: 0}
+    variable: {fileID: 11400000, guid: 862f2b9d970db0047a3e4bffc1aa035a, type: 2}
+  minCameraRotation:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 8568012f6470b1245aa3edcdf998bedf, type: 2}
+  maxCameraRotation:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 402e691a66fc4ac4a8fbbe71a970de8c, type: 2}
+  horizontalCameraSensitivity:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 32d8538b047b74f48b83aa00b36587a2, type: 2}
+  verticalCameraSensitivity:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 88f876178c1108a4d9e68a0b033ba5e3, type: 2}
+  playerCamera: {fileID: 0}
+--- !u!114 &7271239505279199282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2534266468355650458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 055a6afc0f71b9a43b9902306f12b075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugMode:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: 943fa7aede8c2bc4d9bb207f98eedc84, type: 2}
+  moons: {fileID: 11400000, guid: c89e2f415aab52f4091744e5402cdf2c, type: 2}
+  playerShot: {fileID: 11400000, guid: bf273ac9159520240b7764f3cb29bed1, type: 2}
+  bulletInitialPosition: {fileID: 0}

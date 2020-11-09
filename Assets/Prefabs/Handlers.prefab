@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1110601298243363762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2976876293867789890}
+  m_Layer: 0
+  m_Name: Handlers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2976876293867789890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110601298243363762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 955882033858089217}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6215345068622152097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 955882033858089217}
+  - component: {fileID: 8029067215281147986}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &955882033858089217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6215345068622152097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2976876293867789890}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8029067215281147986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6215345068622152097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebcba0380385a5439e1e471401352e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementAxis:
+    useVariable: 1
+    constantValue: {x: 0, y: 0}
+    variable: {fileID: 11400000, guid: 21021f17c645c2542a9a1704c20de344, type: 2}
+  horizontalSinglePress:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: f375605159d8ea14fb217873bbb8826b, type: 2}
+  verticalSinglePress:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: f9721bb0ac611274bbe2e921574c077e, type: 2}
+  nonHorizontalAxisEvent: {fileID: 11400000, guid: f1cea87e760c1204f84c9367a32199d7,
+    type: 2}
+  nonVerticalAxisEvent: {fileID: 11400000, guid: 525a8093ee175b44e9292f49b98fdef5,
+    type: 2}
+  leftButtonEvent: {fileID: 11400000, guid: 0e5709c3a0dbd2e4b96b21df0db56fb3, type: 2}
+  rightButtonEvent: {fileID: 11400000, guid: 577dec219f9b1154cb0bc10ad6d24c5b, type: 2}
+  upButtonEvent: {fileID: 11400000, guid: f380b071aebb2ca43a1f8d621c113247, type: 2}
+  downButtonEvent: {fileID: 11400000, guid: a6cba56b33fcb9040b302d1bd11f3544, type: 2}
+  anyDirectionalAxisEvent: {fileID: 11400000, guid: 69185b2d82ab738479176f8e5278599a,
+    type: 2}
+  noDirectionalAxisEvent: {fileID: 11400000, guid: 8866470e1a959a44dba68d7e5eb420ad,
+    type: 2}
+  cameraAxis:
+    useVariable: 1
+    constantValue: {x: 0, y: 0}
+    variable: {fileID: 11400000, guid: 862f2b9d970db0047a3e4bffc1aa035a, type: 2}
+  cameraLeftEvent: {fileID: 11400000, guid: eb62a54818a02b643bc1841a38bfd774, type: 2}
+  cameraRightEvent: {fileID: 11400000, guid: c84c51915eccb7147a8504a13b24c9e7, type: 2}
+  cameraUpEvent: {fileID: 11400000, guid: 07fe3368f8421d54ba9f3bd006c3749c, type: 2}
+  cameraDownEvent: {fileID: 11400000, guid: 1d4c296aaaa199148a4022559290fd61, type: 2}
+  anyCameraAxisEvent: {fileID: 11400000, guid: adbd136d5e5b7d04baf0e17f371b351d, type: 2}
+  noCameraVerticalAxis: {fileID: 11400000, guid: 8f50a64cbcc84e94292fa7882b0927f7,
+    type: 2}
+  noCameraHorizontalAxis: {fileID: 11400000, guid: b32a75eb5b307dd4799ddafc6718bac4,
+    type: 2}
+  quitButtonEvent: {fileID: 11400000, guid: fd498c7d6e3ee6e458b4f60f5c752013, type: 2}
+  startButtonEvent: {fileID: 11400000, guid: cc1fb3491f60c914abf70d15a244d3e2, type: 2}
+  fireButtonEvent: {fileID: 11400000, guid: bdff2087299eb204aaa98196d178e0cd, type: 2}
+  confirmButtonEvent: {fileID: 11400000, guid: 9d8c3c5206346104d9a1dee5ceaab4d5, type: 2}
+  uiPanelActive:
+    useVariable: 1
+    constantValue: 0
+    variable: {fileID: 11400000, guid: a7505b3a57d1fae4592917e01ab8a597, type: 2}
+  uiChangeEvent: {fileID: 11400000, guid: 2b1681e598f0fdd4d9e3e74eca1acbf6, type: 2}
