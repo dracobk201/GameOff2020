@@ -3,14 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Enemy
-  - PlayerDisc
-  - MinimapCamera
-  - DiscRetriever
-  - Asteroid
-  - DiscGun
-  - EnemyDisc
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -20,15 +13,15 @@ TagManager:
   - UI
   - 
   - 
-  - ActiveLines
-  - FlattenedLines
-  - Background
-  - Bins
-  - FlungTrash
-  - WorldBall
-  - Checkpoints
-  - Minimap
-  - jaggy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -47,7 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Trash
-    uniqueID: 2727232013
     locked: 0
