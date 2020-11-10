@@ -8,12 +8,12 @@ public class CameraController : MonoBehaviour
     [SerializeField] private FloatReference horizontalCameraSensitivity = null;
     [SerializeField] private FloatReference verticalCameraSensitivity = null;
     private GameObject _playerCamera;
-    private Rigidbody _playerRigidbody;
+    private Transform _playerTransform;
     private float rotAroundX, rotAroundY;
 
     private void Start()
     {
-        _playerRigidbody = (TryGetComponent(out Rigidbody rigidbodyResult)) ? rigidbodyResult : gameObject.AddComponent<Rigidbody>();
+        _playerTransform = transform;
         _playerCamera = Camera.main.gameObject;
         rotAroundX = transform.eulerAngles.x;
         rotAroundY = transform.eulerAngles.y;
@@ -30,7 +30,7 @@ public class CameraController : MonoBehaviour
 
     private void CameraRotation()
     {
-        _playerRigidbody.rotation = Quaternion.Euler(0, rotAroundY, 0);
+        _playerTransform.rotation = Quaternion.Euler(0, rotAroundY, 0);
         _playerCamera.transform.rotation = Quaternion.Euler(-rotAroundX, rotAroundY, 0);
     }
 }

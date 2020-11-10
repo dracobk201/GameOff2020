@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031aaa32a46a0de44b5b398165947933, type: 3}
+  m_Name: Level 0
+  m_EditorClassIdentifier: 
+  timeToBeat: 15
+  planetsToPlay:
+  - {fileID: 11400000, guid: a76b1f2bf5be9484b92780752574d9ee, type: 2}
+  - {fileID: 11400000, guid: 3e48a7b274f417a47a6b6627943dfb16, type: 2}
+  - {fileID: 11400000, guid: 83ed2fe5116a00c4ebf7859f4759d9be, type: 2}
+  - {fileID: 11400000, guid: bc456ff5e0304e744ad7ae079f8b334d, type: 2}
+  - {fileID: 11400000, guid: 83ed2fe5116a00c4ebf7859f4759d9be, type: 2}
+  - {fileID: 11400000, guid: 3e48a7b274f417a47a6b6627943dfb16, type: 2}
+  - {fileID: 11400000, guid: a76b1f2bf5be9484b92780752574d9ee, type: 2}
+  - {fileID: 11400000, guid: 3e48a7b274f417a47a6b6627943dfb16, type: 2}
+  - {fileID: 11400000, guid: 83ed2fe5116a00c4ebf7859f4759d9be, type: 2}
+  - {fileID: 11400000, guid: bc456ff5e0304e744ad7ae079f8b334d, type: 2}
