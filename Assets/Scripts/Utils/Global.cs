@@ -3,7 +3,8 @@
 public static class Global
 {
     #region Tags
-    public const string PlayerTag = "Player";
+    public const string PlanetTag = "Planet";
+    public const string MoonTag = "Moon";
     #endregion
 
     #region Axis
